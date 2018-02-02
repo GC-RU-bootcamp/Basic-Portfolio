@@ -1,3 +1,7 @@
+/* * {
+	border: 1px solid red !important;
+} */
+
 body {
   /* background-color: rgb(119, 119, 119); */
   /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
@@ -36,7 +40,8 @@ strong{
 }
 
 a {
-  color: #000000;
+	color: #000000;
+	text-decoration: none;
 }
 
  span {
@@ -127,7 +132,8 @@ footer {
 .gallery-image {
 	height: 273px;
 	width: 272px;
-	float: left;
+	position: static;
+	/*  */
 	vertical-align: top;
 	padding-top: 15px;
 	padding-right: 15px;
@@ -138,6 +144,20 @@ footer {
 	 left: 30px; */
 }
 
+.gallery-box{
+	/* border-color: red;
+	border-width: 2px; */
+	height: 273px;
+	width: 272px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	/* float: left; */
+	
+}
+
 .contact-icon {
 	height: 55px;
 	width: 55px;
@@ -145,9 +165,9 @@ footer {
 
 .box {
 	/* position: relative; */
-	position: absolute;
-	left: 42px;
-	bottom: 71px;
+	position: relative;
+	left: -26px;
+	bottom: 74px;
 	z-index: 3;
 	width: 273px;
 	height: 20px;
@@ -201,6 +221,7 @@ footer {
     padding-left: 516px;
 	font-style: normal;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 	/* float: 
 	border: 3px solid #73AD21; */
 }
